@@ -21,3 +21,11 @@ def footer_home():
 
 footer_home()
 
+def footer_dashboard():
+    st.markdown("""
+        <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; align-items:center;">
+            <p style="font-weight:bold; color:black;">Created by Gaurav Manjhi</p>
+        </div>
+    """, unsafe_allow_html=True)
+
+footer_dashboard()
