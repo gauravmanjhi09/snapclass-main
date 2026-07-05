@@ -16,7 +16,7 @@ def home_screen():
         st.header("I'm Student")
         st.image("https://i.ibb.co/844D9Lrt/mascot-student.png",width=120)
         if st.button('Student Portal',type="primary",icon=':material/arrow_outward:',icon_position="right"):
-            st.session_state['login_type'] = 'students'
+            st.session_state['login_type'] = 'student'
             st.rerun()
 
     with col2:
