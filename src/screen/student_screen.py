@@ -48,6 +48,9 @@ def student_dashboard():
         subjects = get_student_subjects(student_id)
         logs = get_student_attendence(student_id)
 
+    st.json(logs)  #yeh change kiya hai 
+    st.stop()
+
 
     stats_map = {}
 
